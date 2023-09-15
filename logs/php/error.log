@@ -1,0 +1,435 @@
+[12-Sep-2023 08:07:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Sep-2023 08:21:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:32 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:32 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:21:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:22:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:22:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:22:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:22:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:22:13 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[12-Sep-2023 08:22:13 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 05:43:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp10_Sample does not have a method "view_sample_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(259): do_action('toplevel_page_w...')
+#3 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[13-Sep-2023 05:50:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_menu_page(), 0 passed in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/wp10-sample/wp10-sample.php on line 36 and at least 4 expected in /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/plugin.php:1309
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/wp10-sample/wp10-sample.php(36): add_menu_page()
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): Wp10_Sample->add_menu_page('')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/menu.php(420): require_once('/Users/no162/Lo...')
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(158): require('/Users/no162/Lo...')
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/edit.php(10): require_once('/Users/no162/Lo...')
+#8 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/plugin.php on line 1309
+[13-Sep-2023 05:50:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wp10_Sample does not have a method "view_sample_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(259): do_action('toplevel_page_w...')
+#3 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[13-Sep-2023 06:06:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:06:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:17:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:17:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:17:11 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:17:11 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:23:22 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:23:22 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:23:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 06:23:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 07:15:29 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 07:15:29 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 07:15:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 07:15:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+[13-Sep-2023 08:07:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[13-Sep-2023 09:19:45 UTC] PHP Fatal error:  Uncaught Error: Class "Wp10_Sample" not found in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/my-test1/test1.php:54
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(462): include_once()
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(34): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/plugins.php(10): require_once('/Users/no162/Lo...')
+#5 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/my-test1/test1.php on line 54
+[13-Sep-2023 09:19:50 UTC] PHP Fatal error:  Uncaught Error: Class "Wp10_Sample" not found in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/my-test1/test1.php:54
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(462): include_once()
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(34): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/plugins.php(10): require_once('/Users/no162/Lo...')
+#5 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/my-test1/test1.php on line 54
+[13-Sep-2023 09:19:50 UTC] PHP Fatal error:  Uncaught Error: Class "Wp10_Sample" not found in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/my-test1/test1.php:54
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(462): include_once()
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-blog-header.php(13): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/index.php(17): require('/Users/no162/Lo...')
+#5 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/my-test1/test1.php on line 54
+[14-Sep-2023 05:29:32 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php on line 227
+[14-Sep-2023 05:29:33 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php on line 227
+[14-Sep-2023 05:29:33 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php on line 227
+[14-Sep-2023 05:29:33 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php on line 227
+[14-Sep-2023 07:09:38 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:09:58 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:18:09 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:19:09 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:20:47 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:20:56 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:20:56 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php on line 64
+[14-Sep-2023 07:34:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "display_alert_in_admin" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(239): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/edit.php(10): require_once('/Users/no162/Lo...')
+#5 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 07:41:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "display_alert_in_admin" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(239): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 08:07:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[14-Sep-2023 09:52:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_acf_fields" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(389): do_action('acf/init', 6)
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): ACF->init('')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#10 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 09:52:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_acf_fields" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(389): do_action('acf/init', 6)
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): ACF->init('')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(34): require_once('/Users/no162/Lo...')
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(12): require_once('/Users/no162/Lo...')
+#11 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 09:52:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_acf_fields" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(389): do_action('acf/init', 6)
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): ACF->init('')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#10 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 09:52:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_acf_fields" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/acf.php(389): do_action('acf/init', 6)
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): ACF->init('')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-blog-header.php(13): require_once('/Users/no162/Lo...')
+#10 /Users/no162/Local Sites/local-mypage/app/public/index.php(17): require('/Users/no162/Lo...')
+#11 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:39:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'fdsf', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('fdsf', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(171): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->ajax_validate_save_post('')
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_acf/val...')
+#13 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:39:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'fdsf', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('fdsf', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(323): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(312): ACF_Form_Post->save_post(92, Object(WP_Post))
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4751): do_action('save_post', 92, Object(WP_Post), true)
+#13 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#14 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/post.php(445): wp_update_post(Array)
+#15 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(227): edit_post()
+#16 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:40:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'fdsf', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('fdsf', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(323): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(312): ACF_Form_Post->save_post(92, Object(WP_Post))
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4751): do_action('save_post', 92, Object(WP_Post), true)
+#13 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#14 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/post.php(445): wp_update_post(Array)
+#15 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(227): edit_post()
+#16 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:41:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(171): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->ajax_validate_save_post('')
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_acf/val...')
+#13 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:41:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(323): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(312): ACF_Form_Post->save_post(92, Object(WP_Post))
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4751): do_action('save_post', 92, Object(WP_Post), true)
+#13 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#14 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/post.php(445): wp_update_post(Array)
+#15 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(227): edit_post()
+#16 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:45:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(171): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->ajax_validate_save_post('')
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_acf/val...')
+#13 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:45:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(323): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(312): ACF_Form_Post->save_post(92, Object(WP_Post))
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4751): do_action('save_post', 92, Object(WP_Post), true)
+#13 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#14 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/post.php(445): wp_update_post(Array)
+#15 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(227): edit_post()
+#16 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:45:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_menu_page" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(323): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(312): ACF_Form_Post->save_post(92, Object(WP_Post))
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4751): do_action('save_post', 92, Object(WP_Post), true)
+#13 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#14 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/post.php(445): wp_update_post(Array)
+#15 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(227): edit_post()
+#16 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:54:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "validate_no_spaces" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaa aaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaa aaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(171): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->ajax_validate_save_post('')
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_acf/val...')
+#13 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 10:54:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "validate_no_spaces" not found or invalid function name in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(389): apply_filters('acf/validate_va...', true, 'aaaa aaaa', Array, 'acf[field_65026...')
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(340): acf_validate_value('aaaa aaaa', Array, 'acf[field_65026...')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(206): acf_validate_values(Array, 'acf')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(310): acf_validation->acf_validate_save_post('')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php(273): do_action('acf/validate_sa...')
+#8 /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(323): acf_validate_save_post()
+#9 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(312): ACF_Form_Post->save_post(92, Object(WP_Post))
+#10 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4751): do_action('save_post', 92, Object(WP_Post), true)
+#13 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#14 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/post.php(445): wp_update_post(Array)
+#15 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/post.php(227): edit_post()
+#16 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:03:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#6 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:04:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#6 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:04:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#6 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:04:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#6 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:04:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/no162/Lo...')
+#6 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:05:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/admin.php(34): require_once('/Users/no162/Lo...')
+#6 /Users/no162/Local Sites/local-mypage/app/public/wp-admin/users.php(11): require_once('/Users/no162/Lo...')
+#7 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:05:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Alert_On_Login does not have a method "add_wp10_role_and_capability" in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/local-mypage/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/local-mypage/app/public/wp-settings.php(632): do_action('init')
+#3 /Users/no162/Local Sites/local-mypage/app/public/wp-config.php(103): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/local-mypage/app/public/wp-load.php(50): require_once('/Users/no162/Lo...')
+#5 /Users/no162/Local Sites/local-mypage/app/public/wp-blog-header.php(13): require_once('/Users/no162/Lo...')
+#6 /Users/no162/Local Sites/local-mypage/app/public/index.php(17): require('/Users/no162/Lo...')
+#7 {main}
+  thrown in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-hook.php on line 310
+[14-Sep-2023 21:14:28 UTC] PHP Parse error:  syntax error, unexpected identifier "jQuery", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/alert-on-login/alert-on-login.php on line 173
+[14-Sep-2023 21:16:29 UTC] PHP Parse error:  syntax error, unexpected identifier "jQuery", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/alert-on-login/alert-on-login.php on line 173
+[14-Sep-2023 21:18:30 UTC] PHP Parse error:  syntax error, unexpected identifier "jQuery", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/alert-on-login/alert-on-login.php on line 173
+[14-Sep-2023 21:20:31 UTC] PHP Parse error:  syntax error, unexpected identifier "jQuery", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/alert-on-login/alert-on-login.php on line 173
+[14-Sep-2023 21:22:32 UTC] PHP Parse error:  syntax error, unexpected identifier "jQuery", expecting "function" or "const" in /Users/no162/Local Sites/local-mypage/app/public/wp-content/plugins/alert-on-login/alert-on-login.php on line 173

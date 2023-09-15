@@ -1,0 +1,42 @@
+フィールド,種別,Null,キー,初期値,備考,説明
+ID,bigint(20) unsigned,,PRI & IND Pt4,,auto_increment,投稿ID（保存順に自動採番）
+post_author,bigint(20) unsigned,,IND,0,,投稿者のユーザID
+post_date,datetime,,IND Pt3,0000-00-00 00:00:00,,投稿日時
+post_date_gmt,datetime,,,0000-00-00 00:00:00,,投稿日時（GMT）
+post_content,longtext,,,,,本文
+post_title,text,,,,,タイトル
+post_excerpt,text,,,,,抜粋オプション
+post_status,varchar(20),,IND PT2,publish,,"投稿ステータス'publish': 公開済み
+'pending': ペンディング
+'draft': 草稿
+'private': プライベート（非公開）
+'static':（2.0.x 以前はページ）
+'object':
+'attachment':
+'inherit': 継承（添付ファイル、改訂履歴・自動保存のとき）
+'future': 予約投稿"
+comment_status,varchar(20),,,open,,"コメントステータス'open': 許可
+'closed': 不許可
+'registered_only': 登録ユーザのみ"
+ping_status,varchar(20),,,open,,"ピン・ステータス'open': トラックバック・ピンバックを受け付ける
+'closed': 受け付けない"
+post_password,varchar(20),,,,,閲覧パスワード
+post_name,varchar(200),,IND,,,"投稿スラッグ
+'{親ID}-revision(-#)' （改訂履歴のとき）
+'{親ID}-autosave' （自動保存のとき）"
+to_ping,text,,,,,
+pinged,text,,,,,ピン通知済み URL
+post_modified,datetime,,,0000-00-00 00:00:00,,更新日時
+post_modified_gmt,datetime,,,0000-00-00 00:00:00,,更新日時（GMT）
+post_content_filtered,longtext,,,,,
+post_parent,bigint(20) unsigned,,IND,0,,"親ID親ページの投稿ID
+添付ファイルが属する投稿ID
+改訂履歴・自動保存のベース投稿ID"
+guid,varchar(255),,,,,
+menu_order,int(11),,,0,,ページの表示順
+post_type,varchar(20),,IND Pt1,post,,"投稿種別'post': 投稿
+'page': ページ
+'attachment': 添付ファイル
+'revision': 改訂履歴・自動保存"
+post_mime_type,varchar(100),,,,,添付ファイルのとき MIMEタイプ（image/png など）
+comment_count,bigint(20),,,0,,コメント数
