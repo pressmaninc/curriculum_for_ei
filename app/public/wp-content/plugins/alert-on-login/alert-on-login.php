@@ -125,7 +125,7 @@ class Alert_On_Login
                      array(
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'post',
+                        'value' => 'karaoke_songs',
                      ),
                   ),
                ),
