@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: Wp10 Midlevel1
+* Plugin Name: Test1
 * Description: カリキュラム用プラグインです
 * Version: 1.0.0
 * Requires at least: 5.5.1
@@ -10,13 +10,13 @@
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-
+// ①
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
  }
  
  class My_Test1 {
-    
+    // ②
     private static $instance;
  
     public static function get_instance() {
@@ -28,12 +28,20 @@ if ( ! defined( 'ABSPATH' ) ) {
  
     public function __construct() {
        
-        add_action('admin_head', array($this, 'display_alert_by_admin'), 10);
+       add_action( 'my_page', array( $this, 'add_my_page' ), 10 );
     }
  
-    
-    
-    public function display_alert_by_admin() {
+    // ④
+    public function add_my_page() {
+        add_my_page(
+            __( 'Test1 Page', '' ),
+            __( "Test1 Page", '' ),
+            'administrator',
+            'my_test1',
+            array( $this, 'view_test1_page' ),
+        );
+    }
+    public function view_test1_page() {
         //please create alert box
 
         ?>
