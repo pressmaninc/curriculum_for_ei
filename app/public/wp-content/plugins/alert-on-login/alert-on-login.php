@@ -178,7 +178,7 @@ class Alert_On_Login
 
    function enqueue_custom_js() {
       $current_user = wp_get_current_user();
-         $allowed_roles = array('author'); // アラートを表示させたいユーザーロールを指定
+         $allowed_roles = array('wp10_role'); // アラートを表示させたいユーザーロールを指定
          if (array_intersect($allowed_roles, $current_user->roles)) {
             echo "<script>alert('Welcome! This is a custom alert for users with wp10_capability.');</script>";
          }
