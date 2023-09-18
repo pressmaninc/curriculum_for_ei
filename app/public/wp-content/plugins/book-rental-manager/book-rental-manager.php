@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: Test1
+* Plugin Name: Book Rental Manger
 * Description: カリキュラム用プラグインです
 * Version: 1.0.0
 * Requires at least: 5.5.1
@@ -9,13 +9,11 @@
 * License: GPL v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
-
-// ①
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
  }
  
- class My_Test1 {
+ class My_Test2 {
     // ②
     private static $instance;
  
@@ -28,20 +26,12 @@ if ( ! defined( 'ABSPATH' ) ) {
  
     public function __construct() {
        // ③
-       add_action( 'my_page', array( $this, 'add_my_page' ), 10 );
+       add_action( 'my_page', array( $this, 'add_my_page1' ), 10 );
     }
  
     // ④
-    public function add_my_page() {
-        add_my_page(
-            __( 'Test1 Page', '' ),
-            __( "Test1 Page", '' ),
-            'administrator',
-            'my_test1',
-            array( $this, 'view_test1_page' ),
-        );
-    }
-    public function view_test1_page() {
+    
+    public function add_my_page1() {
         //please create alert box
 
         ?>
@@ -51,4 +41,4 @@ if ( ! defined( 'ABSPATH' ) ) {
         <?php
     }
  }
- My_Test1::get_instance();
+ My_Test2::get_instance();
