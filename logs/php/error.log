@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [12-Sep-2023 08:07:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
 [12-Sep-2023 08:21:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
 [12-Sep-2023 08:21:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
@@ -451,3 +452,646 @@ Stack trace:
 [15-Sep-2023 07:12:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
 [18-Sep-2023 14:07:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
 [18-Sep-2023 14:07:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/local-mypage/app/public/wp-includes/class-wp-list-util.php on line 168
+=======
+[15-Sep-2023 07:51:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:51:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:52:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:52:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:58:00 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:58:00 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:58:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:58:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:59:21 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:59:21 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:59:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 07:59:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 08:02:47 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-theme-upgrader.php on line 160
+[15-Sep-2023 08:55:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 08:55:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 08:56:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 08:56:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 08:56:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 08:56:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 09:05:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 09:05:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 09:05:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[15-Sep-2023 09:05:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[18-Sep-2023 06:42:26 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[18-Sep-2023 06:48:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/no162/Local Sites/book-store/app/public/wp-includes/update.php on line 730
+[18-Sep-2023 06:52:14 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 06:55:20 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 06:55:28 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 06:55:29 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 06:55:32 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 06:55:39 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 14:41:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[18-Sep-2023 14:41:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[18-Sep-2023 14:41:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[18-Sep-2023 14:41:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[18-Sep-2023 14:44:39 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[18-Sep-2023 14:53:43 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:24:19 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:47:49 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:47:50 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:47:53 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:47:54 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:49:39 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:59:51 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 02:59:52 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:00:12 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:09:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 03:09:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 03:09:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 03:09:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 03:19:48 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:19:49 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:19:50 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:19:50 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:19:51 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:19:56 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:20:05 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 03:20:08 UTC] PHP Warning:  Undefined array key 0 in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/classes/Helper/Select/Group/UserRole.php on line 31
+[19-Sep-2023 05:16:20 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:16:20 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:16:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:16:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:17:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:17:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:17:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 05:17:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 07:15:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[19-Sep-2023 14:12:59 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 14:12:59 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[19-Sep-2023 14:59:24 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 14:59:39 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 14:59:40 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 14:59:40 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 14:59:42 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 14:59:42 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 14:59:57 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:12 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:27 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:40 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:40 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:41 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:41 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:41 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:00:43 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:14 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:14 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:14 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:14 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:22 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:29 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:44 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 15:01:59 UTC] PHP Warning:  Undefined variable $name_for_upload in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/wp10-begin/wp10-begin.php on line 94
+[19-Sep-2023 20:04:32 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:04:32 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:04:32 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 20:04:50 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:04:50 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:04:50 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 20:05:00 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:05:00 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:05:00 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 20:13:50 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:13:50 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:13:50 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 20:13:58 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:13:58 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:13:58 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 20:14:01 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:14:01 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 20:14:01 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 22:57:58 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 22:57:58 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 22:57:58 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:14:31 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:14:31 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:14:31 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:04 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:04 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:04 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:05 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:05 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:05 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:05 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:05 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:05 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:06 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:06 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:06 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:06 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:06 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:06 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:12 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:12 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:12 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:12 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:12 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:12 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:18:14 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:14 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:18:14 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:20:33 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:20:33 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:20:33 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:20:34 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:20:34 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:20:34 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:20:35 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:20:35 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:20:35 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[19-Sep-2023 23:26:39 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:26:39 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[19-Sep-2023 23:26:39 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[20-Sep-2023 01:41:49 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[20-Sep-2023 01:41:49 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[20-Sep-2023 01:41:49 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[20-Sep-2023 04:03:55 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[20-Sep-2023 04:03:55 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[20-Sep-2023 04:03:55 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[20-Sep-2023 05:32:47 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[20-Sep-2023 05:32:47 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[20-Sep-2023 05:32:47 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[20-Sep-2023 07:15:10 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[20-Sep-2023 07:47:24 UTC] PHP Fatal error:  Declaration of CUSTOM_NAMESPACE\Column\Free\COLUMN_NAME::get_raw_value(int $post_id) must be compatible with AC\Column::get_raw_value($id) in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/ac-column-template-master/classes/Column/Free/COLUMN_NAME.php on line 46
+[21-Sep-2023 03:00:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "custom_dashboard_widget" not found or invalid function name in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/template.php:1443
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/dashboard.php(271): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/index.php(203): wp_dashboard()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/template.php on line 1443
+[21-Sep-2023 03:42:16 UTC] PHP Fatal error:  Cannot redeclare Book_Dashboard::custom_dashboard_widget() in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/book-dashboard/book-dashboard.php on line 71
+[21-Sep-2023 03:46:18 UTC] PHP Fatal error:  Cannot redeclare Book_Dashboard::custom_dashboard_widget() in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/book-dashboard/book-dashboard.php on line 63
+[21-Sep-2023 04:51:35 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/book-dashboard/book-dashboard.php on line 70
+[21-Sep-2023 06:03:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 06:03:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 06:03:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 06:03:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:08:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:08:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:09:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:09:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:09:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:09:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 07:15:08 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[21-Sep-2023 08:17:11 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[21-Sep-2023 10:50:51 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:50:51 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:50:51 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:50:51 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:53:03 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:53:03 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:53:03 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:53:03 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:53:05 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:53:05 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:53:05 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:53:05 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:53:55 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:53:55 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:53:55 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:53:55 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:54:02 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:54:02 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 10:54:02 UTC] PHP Warning:  Attempt to read property "taxonomy" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 40
+[21-Sep-2023 10:54:02 UTC] PHP Warning:  Attempt to read property "slug" on bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/admin-columns/classes/Helper/Taxonomy.php on line 41
+[21-Sep-2023 19:06:44 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 19:06:44 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 19:06:50 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 19:06:50 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-list-util.php on line 168
+[21-Sep-2023 19:16:28 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[21-Sep-2023 19:20:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/addons/acf/classes/Column/Repeater.php on line 29
+[21-Sep-2023 19:21:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/addons/acf/classes/Column/Repeater.php on line 29
+[21-Sep-2023 19:21:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/no162/Local Sites/book-store/app/public/wp-content/plugins/admin-columns-pro/addons/acf/classes/Column/Repeater.php on line 29
+[22-Sep-2023 02:00:51 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:51 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:51 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:00:55 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:55 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:55 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:00:58 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:58 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:58 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:00:59 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:59 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:00:59 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:01:00 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:01:00 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:01:00 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:01:02 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:01:02 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:01:02 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:01:57 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:01:57 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:01:57 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:02:22 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:02:22 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:02:22 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:02:24 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:02:24 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:02:24 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:05:07 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:05:07 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:05:07 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:13:16 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:13:16 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:13:16 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:13:19 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:13:19 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:13:19 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:05 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:05 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:05 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:09 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:09 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:09 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:13 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:13 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:13 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:15 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:15 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:15 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:17 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:17 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:17 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:24 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:24 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:24 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:17:26 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:26 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:17:26 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:19:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/plugins.php(605): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/plugins.php(605): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/plugins.php(605): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit-comments.php(243): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:19:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/index.php(137): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/plugins.php(605): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit-form-advanced.php(425): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/book-store/app/public/wp-admin/post.php(206): require('/Users/no162/Lo...')
+#5 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit-form-advanced.php(425): require_once('/Users/no162/Lo...')
+#4 /Users/no162/Local Sites/book-store/app/public/wp-admin/post.php(206): require('/Users/no162/Lo...')
+#5 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/plugins.php(605): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(407): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:22:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Book_Rental does not have a method "display_alert_in_admin" in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/no162/Local Sites/book-store/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/book-store/app/public/wp-admin/admin-header.php(163): do_action('admin_head')
+#3 /Users/no162/Local Sites/book-store/app/public/wp-admin/plugins.php(605): require_once('/Users/no162/Lo...')
+#4 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 02:26:22 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:26:22 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:26:22 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:43:26 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:43:26 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:43:26 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+[22-Sep-2023 02:44:25 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:44:25 UTC] PHP Warning:  Warning: wp_strip_all_tags expects parameter #1 ($text) to be a string, object given. in /Users/no162/Local Sites/book-store/app/public/wp-includes/formatting.php on line 5526
+[22-Sep-2023 02:44:25 UTC] PHP Fatal error:  Uncaught Error: Object of class Word_Count_Column could not be converted to string in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php:1485
+Stack trace:
+#0 /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php(1578): WP_List_Table->print_column_headers()
+#1 /Users/no162/Local Sites/book-store/app/public/wp-admin/edit.php(495): WP_List_Table->display()
+#2 {main}
+  thrown in /Users/no162/Local Sites/book-store/app/public/wp-admin/includes/class-wp-list-table.php on line 1485
+>>>>>>> e0eed471 (Remove submodule 'curriculum_for_ei')

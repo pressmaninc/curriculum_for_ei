@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [11-Sep-2023 17:06:53] NOTICE: fpm is running, pid 3436
 [11-Sep-2023 17:06:53] NOTICE: ready to handle connections
 [11-Sep-2023 17:21:28] NOTICE: Terminating ...
@@ -32,3 +33,22 @@
 [14-Sep-2023 09:56:15] NOTICE: ready to handle connections
 [18-Sep-2023 23:19:22] NOTICE: fpm is running, pid 35016
 [18-Sep-2023 23:19:22] NOTICE: ready to handle connections
+=======
+[15-Sep-2023 16:14:43] NOTICE: fpm is running, pid 26238
+[15-Sep-2023 16:14:43] NOTICE: ready to handle connections
+[18-Sep-2023 00:27:05] NOTICE: Terminating ...
+[18-Sep-2023 00:27:05] NOTICE: Terminating ...
+[18-Sep-2023 00:27:05] NOTICE: exiting, bye-bye!
+[18-Sep-2023 00:27:07] NOTICE: fpm is running, pid 31304
+[18-Sep-2023 00:27:07] NOTICE: ready to handle connections
+[18-Sep-2023 23:32:21] NOTICE: Terminating ...
+[18-Sep-2023 23:32:21] NOTICE: Terminating ...
+[18-Sep-2023 23:32:21] NOTICE: exiting, bye-bye!
+[18-Sep-2023 23:32:24] NOTICE: fpm is running, pid 35511
+[18-Sep-2023 23:32:24] NOTICE: ready to handle connections
+[19-Sep-2023 14:29:38] NOTICE: Terminating ...
+[19-Sep-2023 14:29:38] NOTICE: Terminating ...
+[19-Sep-2023 14:29:38] NOTICE: exiting, bye-bye!
+[19-Sep-2023 14:37:29] NOTICE: fpm is running, pid 1241
+[19-Sep-2023 14:37:29] NOTICE: ready to handle connections
+>>>>>>> e0eed471 (Remove submodule 'curriculum_for_ei')
