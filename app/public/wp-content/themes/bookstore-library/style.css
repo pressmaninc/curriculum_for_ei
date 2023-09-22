@@ -1,0 +1,213 @@
+/*
+Theme Name: Bookstore Library
+Template: author-writer
+Text Domain: bookstore-library
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-bookstore-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Books Library is a stunning WordPress theme with a wonderful design and modern features for book authors, writers, book houses, biography, science fiction, libraries, Ebook libraries, publishing houses, and more. It is a very well-designed theme and has optimized codes for bringing a lightweight design that not only loads at a quick speed but also gives you faster page load time. The core is developed from clean codes that follow the WordPress standards and include a mobile-friendly design that will make your website look lovely on mobile devices. If you think of your ranks in the search engines, developers have already made this theme SEO-friendly. By making this theme translation ready, makes have already made your theme ready for local as well as international audiences.  The clean and secure codes of this theme make it work well across several devices and the responsive design makes your website look incredible. Bootstrap framework is used while designing this theme and includes a lot of easy customization options. This stunning theme also has many interactive elements such as the Call to Action Button (CTA) and plenty of social media icons. It brings a lot of sections for accommodating your content such as Team, Testimonial section, etc., and a beautiful banner as well.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, e-commerce, education
+Version: 0.2.4
+Tested up to: 6.3
+Requires PHP: 5.6
+Requires at least: 5.0
+*/
+
+.top-header,.readmore-btn a,#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,.site-info,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],span.meta-nav,.more-btn a,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.headerbox{
+    background: #f13b3b;
+}
+
+.main-navigation ul ul,#theme-sidebar button[type="submit"]:hover, #footer button[type="submit"]:hover, .readmore-btn a:hover, #comments input[type="submit"]:hover, span.meta-nav:hover,#footer,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #424851;
+}
+
+h1, h2, h3, h4, h5, h6,.event-inner-content h3 a{
+    color: #424851;
+}
+
+a, a:hover,#theme-sidebar h3,#theme-sidebar a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a, #main-content p a,.event-inner-content i,h6.title-p{
+    color: #f13b3b;
+}
+
+nav.woocommerce-MyAccount-navigation ul li{
+    border-color: #424851;
+}
+
+.readmore-btn a:hover,.logo a,.logo p,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,.main-navigation a,.media-links span,.more-btn a:hover,#slider .inner_carousel h2{
+    color: #fff;
+}
+
+#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+    background: #fff;
+    color: #f13b3b;
+}
+
+.box-content li a,.box-content ol a,.box-content p a{
+    text-decoration: underline;
+}
+
+.site-info a:hover {
+    color: #fff;
+}
+
+/* Header */
+
+.page-template-front-page .headerbox {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: rgb(242 59 59 / 70%);
+    left: 0;
+}
+.media-links span {
+    font-weight: bold;
+}
+.media-links.text-md-right {
+    margin-left: -13px !important;
+}
+
+/* Slider */
+
+#slider .carousel-caption {
+    right: 20%;
+    left: 50%;
+    text-align: right;
+    background: rgb(66 72 81 / 50%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Event */
+
+.cat-inner-box {
+    background: #f4f4f4;
+}
+.event-inner-content h5 {
+    background: #f13b3b;
+    clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    display: inline-block;
+    padding: 12px 25px 12px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.event-inner-content h6 {
+    font-size: 14px;
+    font-weight: 100;
+}
+#workshop .owl-carousel button.owl-dot.active{
+    border: solid 5px #424851;
+}
+#workshop .owl-carousel button.owl-dot{
+    border: solid 5px #f13b3b;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+#workshop .owl-dots {
+    text-align: center;
+}
+h6.title-p {
+    letter-spacing: 5px;
+}
+
+a.added_to_cart.wc-forward {
+    background: #f13b3b;
+    padding: 10px 32px;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a.added_to_cart.wc-forward:hover{
+  background: #424851;
+}
+
+a#return-to-top {
+    z-index: 999;
+}
+
+/* hover CSS */
+
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link:hover {
+    background: #f13b3b;
+    color: #fff;
+}
+
+/* loader CSS */
+.center1 {
+    border-left-color: #f13b3b;
+    border-top-color: #f13b3b;
+}
+.center2 {
+    border-left-color: #222222;
+    border-top-color: #222222;
+}
+
+ul.sub-menu ul.sub-menu {
+    left: 202px !important;
+}
+
+
+@media screen and (max-width: 767px){
+    .page-template-front-page .headerbox {
+        position: static;
+        background: #f13b3b;
+    }
+    .toggle-nav i{
+        background: #fff;
+        color: #f13b3b;
+    }
+    .sidenav{
+        background: #424851;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+        padding: 0;
+    }
+    #slider .inner_carousel h2{
+        padding: 0;
+    }
+    .event-inner-content {
+        text-align: center;
+        padding: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 525px){
+  .media-links.text-md-right {
+    margin-left: 0px !important;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .page-template-front-page .headerbox {
+        position: static;
+        background: #f13b3b;
+    }
+    .toggle-nav i{
+        background: #fff;
+        color: #f13b3b;
+    }
+    .sidenav{
+        background: #424851;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .page-template-front-page .headerbox {
+        position: static;
+        background: #f13b3b;
+    }
+    #slider .carousel-caption {
+        right: 20%;
+        left: 30%;
+    }
+}
