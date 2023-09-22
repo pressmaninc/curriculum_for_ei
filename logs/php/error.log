@@ -1,0 +1,38 @@
+[22-Sep-2023 09:17:59 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class For_ACF_Plugin does not have a method "add_custom_dashboard_widget" in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /Users/no162/Local Sites/wp10-test/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/wp10-test/app/public/wp-admin/includes/dashboard.php(135): do_action('wp_dashboard_se...')
+#3 /Users/no162/Local Sites/wp10-test/app/public/wp-admin/index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 09:18:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class For_ACF_Plugin does not have a method "add_custom_dashboard_widget" in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /Users/no162/Local Sites/wp10-test/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/wp10-test/app/public/wp-admin/includes/dashboard.php(135): do_action('wp_dashboard_se...')
+#3 /Users/no162/Local Sites/wp10-test/app/public/wp-admin/index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 09:18:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class For_ACF_Plugin does not have a method "add_custom_dashboard_widget" in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /Users/no162/Local Sites/wp10-test/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/no162/Local Sites/wp10-test/app/public/wp-admin/includes/dashboard.php(135): do_action('wp_dashboard_se...')
+#3 /Users/no162/Local Sites/wp10-test/app/public/wp-admin/index.php(15): wp_dashboard_setup()
+#4 {main}
+  thrown in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-hook.php on line 310
+[22-Sep-2023 09:21:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:35 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:35 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:48 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:48 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:50 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[22-Sep-2023 09:21:50 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
