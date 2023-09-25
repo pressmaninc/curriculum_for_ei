@@ -27,7 +27,7 @@ class For_ACF_Plugin
 
         add_action('init', array($this, 'register_custom_post_type_book'), 10);
         add_action('init', array($this, 'register_custom_post_type_review'), 10);
-        add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
+        add_action('wp_enqueue_style', array($this, 'enqueue_styles'));
         
     }
 

@@ -36,3 +36,4 @@ Stack trace:
 [22-Sep-2023 09:21:48 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
 [22-Sep-2023 09:21:50 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
 [22-Sep-2023 09:21:50 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/no162/Local Sites/wp10-test/app/public/wp-includes/class-wp-list-util.php on line 168
+[25-Sep-2023 00:44:11 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
